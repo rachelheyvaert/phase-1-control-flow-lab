@@ -2,11 +2,10 @@ function scuberGreetingForFeet(depth) {
   // Write your code here!
   if (depth <= 400) {
     return 'This one is on me!'
-} if (depth >= 2001) { //Why not passing??
-  return 'I will gladly take your thirty bucks.'
-} else if (depth > 2501) { //Why not passing??
-  return 'No can do.'
-}
+} else if (depth >= 2001 && depth < 2500) { 
+  return 'I will gladly take your thirty bucks.'} 
+  else { return 'No can do.'
+  }
 }
 
 function ternaryCheckCity(city) {
