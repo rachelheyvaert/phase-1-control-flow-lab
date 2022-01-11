@@ -4,9 +4,9 @@ function scuberGreetingForFeet(depth){
     return 'This one is on me!'
   }
 } if(depth >= 2001){ //Why not passing??
-   text = 'I will gladly take your thirty bucks.'
+   return 'I will gladly take your thirty bucks.'
 } else if (depth > 2501) { //Why not passing??
-  text = 'No can do.'
+  return 'No can do.'
 }
 
 
