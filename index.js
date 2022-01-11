@@ -1,11 +1,12 @@
 function scuberGreetingForFeet(depth){
   // Write your code here!
-  if(depth <= 400)
+  if(depth <= 400) {
     return 'This one is on me!'
-} if (depth > 2000) { //Why not passing??
-  scuberGreetingForFeet =  'I will gladly take your thirty bucks.';
-} else if (depth > 2500) { //Why not passing??
-  scuberGreetingForFeet = 'No can do.';
+  }
+} if(depth >= 2001){ //Why not passing??
+   text = 'I will gladly take your thirty bucks.'
+} else if (depth > 2501) { //Why not passing??
+  text = 'No can do.'
 }
 
 
